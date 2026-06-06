@@ -501,7 +501,7 @@ with st.sidebar:
     st.markdown('<div class="divider"></div>', unsafe_allow_html=True)
     st.markdown("""
     <div style="font-size: 0.65rem; color: #333333; padding: 0.3rem 0;">
-        Powered by Gemini 2.0 Flash — FastAPI + Streamlit
+        Powered by Groq Llama 3 — FastAPI + Streamlit
     </div>
     """, unsafe_allow_html=True)
 

@@ -7,7 +7,7 @@ Built as a production-quality FastAPI application with safety guardrails, error 
 ![Python](https://img.shields.io/badge/Python-3.11+-blue?logo=python)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.115-green?logo=fastapi)
 ![SQLite](https://img.shields.io/badge/SQLite-3-blue?logo=sqlite)
-![Gemini](https://img.shields.io/badge/Gemini_2.0_Flash-AI-orange?logo=google)
+![Groq](https://img.shields.io/badge/Groq-Llama_3.3_70B-f55036?logo=groq)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.58-red?logo=streamlit)
 
 ---

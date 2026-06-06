@@ -73,7 +73,7 @@ async def root():
     return {
         "name": "AI SQL Agent",
         "version": "1.0.0",
-        "description": "Natural Language to SQL Agent powered by Google Gemini",
+        "description": "Natural Language to SQL Agent powered by Groq Llama 3",
         "endpoints": {
             "POST /query": "Convert a natural language question to SQL and get results",
             "GET /health": "Health check",

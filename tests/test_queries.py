@@ -249,7 +249,7 @@ class TestIntegration:
     End-to-end tests that call the actual LLM.
 
     Run with: pytest -m integration
-    Requires GEMINI_API_KEY in .env
+    Requires GROQ_API_KEY in .env
     """
 
     def test_employee_count_query(self):
