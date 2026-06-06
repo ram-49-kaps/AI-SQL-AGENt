@@ -124,7 +124,7 @@ ai-sql-agent/
 ### Prerequisites
 
 - Python 3.11 or higher
-- A [Google Gemini API key](https://aistudio.google.com/apikey) (free tier works)
+- A [Groq API key](https://console.groq.com/keys) (free tier works)
 
 ### 1. Clone the Repository
 
@@ -152,10 +152,10 @@ pip install -r requirements.txt
 cp .env.example .env
 ```
 
-Edit `.env` and add your Gemini API key:
+Edit `.env` and add your Groq API key:
 
 ```env
-GEMINI_API_KEY=your_actual_api_key_here
+GROQ_API_KEY=your_actual_api_key_here
 ```
 
 ### 5. Run the API Server
@@ -189,7 +189,7 @@ The web UI will open at: **http://localhost:8501**
 
 | Variable | Description | Default |
 |----------|-------------|---------|
-| `GEMINI_API_KEY` | Google Gemini API key | *required* |
+| `GROQ_API_KEY` | Groq API key | *required* |
 | `DATABASE_URL` | SQLite database path | `sqlite:///data/company.db` |
 | `HOST` | Server host | `0.0.0.0` |
 | `PORT` | Server port | `8000` |
