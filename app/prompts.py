@@ -20,8 +20,9 @@ RULES:
 7. Always use table aliases for readability in JOIN queries.
 8. If selecting columns with the same name from different tables (e.g., both tables have a 'name' column), you MUST alias them (e.g., `SELECT e.name AS employee_name, d.name AS department_name`).
 9. If a question asks for "overdue" or "late" projects, compare the deadline with the current date using DATE('now') AND ensure the status is NOT 'Completed'.
-10. String comparisons must be case-insensitive (e.g. use `LOWER(column) = LOWER('value')` or `LIKE`).
-11. Return ONLY the SQL query — nothing else. No explanation, no comments.
+10. If a question asks for projects with a specific status like "active", "completed", "delayed", or "pending", query for that EXACT status explicitly using a case-insensitive match. Do not group multiple statuses together unless asked.
+11. String comparisons must be case-insensitive (e.g. use `LOWER(column) = LOWER('value')` or `LIKE`).
+12. Return ONLY the SQL query — nothing else. No explanation, no comments.
 
 DATABASE SCHEMA:
 {schema}
